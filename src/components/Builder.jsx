@@ -2,6 +2,10 @@ import React from 'react'
 import image1 from "../assets/images/image1.jpeg"
 import image2 from "../assets/images/image2.jpeg"
 import image3 from "../assets/images/image3.jpg"
+import image4 from "../assets/images/image4.jpg"
+import image5 from "../assets/images/image5.jpeg"
+import image6 from "../assets/images/image6.jpeg"
+import image7 from "../assets/images/image7.jpeg"
 
 function Builder() {
   return (
@@ -30,7 +34,7 @@ function Builder() {
         <button className='bg-[#673AB7] w-30 text-white font-bold py-3 px-4 rounded-md ml-[35%] mb-8'>Scan Your Resume</button>
       </div>
 
-      <div className='bg-[#DBE2F2B2] flex h-[70vh] w-full'>
+      <div className='bg-[#DBE2F2B2] flex h-[80vh] w-full'>
         <div className='left w-[60vw] pl-36'>
         <h1 className='pt-20 text-5xl font-bold '>Rewrite your resume with AI</h1>
         <p className='mt-6 text-xl font-medium '>Get your resume rewritten by the world’s best AI engine (ChatGPT 4.0) in combination with tailored prompts and a fine-tuned model based on your resume and the job ad you’re applying for to save time.</p>
@@ -43,9 +47,37 @@ function Builder() {
 
       </div>
 
-      <div className='flex h-[70vh]'>
-        <div className='w-[40%] border-2'>left </div>
-        <div className='w-[60%] border-2'>right</div>
+      <div className='flex h-[80vh]'>
+        <div className='w-[40%] m-20 mt-5'>
+          <img className='h-[70vh]' src={image4} alt="" />
+        </div>
+        <div className='w-[60%]  py-20'>
+          <h1 className='text-5xl font-bold ml-8 mt-7'>Get an ATS understanding check</h1>
+          <p className='text-xl font-medium ml-8 mt-5 pr-48'>
+          Part of the resume checker score we assign is based on the parsability rate of your resume. We’ve reverse-engineered the most popular applicant tracking systems currently used and we look for signs of ATS compatibility.
+          For each resume uploaded, we look for skills and keywords connected to the job and industry you’re applying for, readable contact information, file type, and length. Then, we’ll give you suggestions on how to improve your resume.
+          </p>
+        </div>
+      </div>
+      <div className='bg-[#DBE2F2B2] flex h-[80vh] w-full'>
+        <div className='left w-[60vw] pl-36'>
+        <h1 className='pt-20 text-5xl font-bold '>Use the best resume builder in the industry</h1>
+        <p className='mt-6 text-xl font-medium '>Get your resume rewritten by the world’s best AI engine (ChatGPT 4.0) in combination with tailored prompts and a fine-tuned model based on your resume and the job ad you’re applying for to save time.</p>
+        <p className='mt-6 text-xl font-medium  '>Receive content suggestions based on the sections your resume currently has. Generate a resume summary or objective based on your experience. Get skills suggestions based on the industry you’re applying for. Omit buzzwords, filler words, and irrelevant content.</p>
+        </div>
+
+        <div className='right w-[40vw]'>
+          <img className='mt-20 h-[50vh] ml-7' src={image5} alt="" />
+        </div>
+
+      </div>
+
+      <div>
+        <img src={image6} alt="" />
+      </div>
+
+      <div>
+        <img src={image7} alt="" />
       </div>
       
     </div>
