@@ -24,7 +24,7 @@ function Card4() {
                     </svg>
                     </div>
 
-                    <div className='px-3'>Upload Resume</div>
+                    <div className='px-4'>Upload Resume</div>
 
                 </div>
 

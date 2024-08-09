@@ -18,7 +18,7 @@ function Card5() {
 
                     </div>
 
-                    <div className='px-3'>Add Description</div>
+                    <div className='px-3 md:px-4'>Add Description</div>
 
                 </div>
 
