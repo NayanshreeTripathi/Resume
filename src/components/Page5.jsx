@@ -1,4 +1,3 @@
-import React from 'react'
 import image4 from '../assets/images/image4.jpg'
 
 function Page5() {

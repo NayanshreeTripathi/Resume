@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function Card5() {
     const [isModalOpen, setIsModalOpen] = useState(false);
