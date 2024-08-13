@@ -1,4 +1,3 @@
-import React from 'react';
 import Card4 from './Card4';
 import Card5 from './Card5';
 
