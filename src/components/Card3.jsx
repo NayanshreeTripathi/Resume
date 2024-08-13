@@ -25,8 +25,8 @@ function Card3() {
             <p className='text-lg md:px-2 px-3'>3</p>
         </div>
 
-        <div className='md:w-[13vw] md:h-[13vh] md:top-[20%] md:left-[25%]  left-[20%] top-[22%] absolute w-[50vw] h-[20vh] object-contain'>
-            <img src={image1} alt="" />
+        <div className='absolute top-[22%] left-[50%] transform -translate-x-1/2 w-[70%] md:w-[30vw] h-[20vh] md:h-[30vh]'>
+          <img src={image1} alt="" className='object-contain w-full h-full' />
         </div>
 
         <div className='absolute top-[83%] left-[22%] md:left-[24%]'>
